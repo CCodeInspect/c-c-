@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-talk_back.o: talk_back.c.o
-.PHONY : talk_back.o
+pizza.o: pizza.c.o
+.PHONY : pizza.o
 
 # target to build an object file
-talk_back.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.o
-.PHONY : talk_back.c.o
+pizza.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.o
+.PHONY : pizza.c.o
 
-talk_back.i: talk_back.c.i
-.PHONY : talk_back.i
+pizza.i: pizza.c.i
+.PHONY : pizza.i
 
 # target to preprocess a source file
-talk_back.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.i
-.PHONY : talk_back.c.i
+pizza.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.i
+.PHONY : pizza.c.i
 
-talk_back.s: talk_back.c.s
-.PHONY : talk_back.s
+pizza.s: pizza.c.s
+.PHONY : pizza.s
 
 # target to generate assembly for a file
-talk_back.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.s
-.PHONY : talk_back.c.s
+pizza.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.s
+.PHONY : pizza.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... talk_back.o"
-	@echo "... talk_back.i"
-	@echo "... talk_back.s"
+	@echo "... pizza.o"
+	@echo "... pizza.i"
+	@echo "... pizza.s"
 .PHONY : help
 
 
