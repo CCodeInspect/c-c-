@@ -4,3 +4,6 @@
 CMakeFiles/c_exe.dir/pizza.c.o: \
  ../pizza.c \
  ../pizza.h
+CMakeFiles/c_exe.dir/prasise2.c.o: \
+ ../prasise2.c \
+ ../prasise2.h

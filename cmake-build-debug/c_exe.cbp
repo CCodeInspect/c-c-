@@ -82,6 +82,12 @@
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/pizza.h">
 			<Option target="c_exe"/>
 		</Unit>
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/prasise2.c">
+			<Option target="c_exe"/>
+		</Unit>
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/prasise2.h">
+			<Option target="c_exe"/>
+		</Unit>
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

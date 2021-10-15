@@ -153,6 +153,30 @@ pizza.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.s
 .PHONY : pizza.c.s
 
+prasise2.o: prasise2.c.o
+.PHONY : prasise2.o
+
+# target to build an object file
+prasise2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.o
+.PHONY : prasise2.c.o
+
+prasise2.i: prasise2.c.i
+.PHONY : prasise2.i
+
+# target to preprocess a source file
+prasise2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.i
+.PHONY : prasise2.c.i
+
+prasise2.s: prasise2.c.s
+.PHONY : prasise2.s
+
+# target to generate assembly for a file
+prasise2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.s
+.PHONY : prasise2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... pizza.o"
 	@echo "... pizza.i"
 	@echo "... pizza.s"
+	@echo "... prasise2.o"
+	@echo "... prasise2.i"
+	@echo "... prasise2.s"
 .PHONY : help
 
 

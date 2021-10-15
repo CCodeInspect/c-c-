@@ -8,7 +8,7 @@
 #define PRAISE "you are an extraoridinary being"
 
 int main(void) {
-    char name[40];
+    char name[40];-
     printf("what\'s your name?");
     scanf("%s", name);
     printf("hi,%s %s\n", name, PRAISE);
