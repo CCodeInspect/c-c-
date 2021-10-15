@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int toes;
 toes = 3;
 
@@ -11,11 +12,14 @@ void twice_as_much();
 void square_as();
 
 int main() {
+
+
     int a, b;
     a = 5;
     b = 1;
     b = a;
     a = b;
+
 
     printf("2倍\n");
     twice_as_much(); //Implicit declaration of function

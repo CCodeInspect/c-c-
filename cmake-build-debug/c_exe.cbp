@@ -76,13 +76,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/main.c">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/talk_back.c">
 			<Option target="c_exe"/>
 		</Unit>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/square_as.c">
-			<Option target="c_exe"/>
-		</Unit>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/square_as.h">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/talk_back.h">
 			<Option target="c_exe"/>
 		</Unit>
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/CMakeLists.txt">

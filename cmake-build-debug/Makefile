@@ -129,53 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-main.o: main.c.o
-.PHONY : main.o
+talk_back.o: talk_back.c.o
+.PHONY : talk_back.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/main.c.o
-.PHONY : main.c.o
+talk_back.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.o
+.PHONY : talk_back.c.o
 
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/main.c.s
-.PHONY : main.c.s
-
-square_as.o: square_as.c.o
-.PHONY : square_as.o
-
-# target to build an object file
-square_as.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/square_as.c.o
-.PHONY : square_as.c.o
-
-square_as.i: square_as.c.i
-.PHONY : square_as.i
+talk_back.i: talk_back.c.i
+.PHONY : talk_back.i
 
 # target to preprocess a source file
-square_as.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/square_as.c.i
-.PHONY : square_as.c.i
+talk_back.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.i
+.PHONY : talk_back.c.i
 
-square_as.s: square_as.c.s
-.PHONY : square_as.s
+talk_back.s: talk_back.c.s
+.PHONY : talk_back.s
 
 # target to generate assembly for a file
-square_as.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/square_as.c.s
-.PHONY : square_as.c.s
+talk_back.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/talk_back.c.s
+.PHONY : talk_back.c.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... square_as.o"
-	@echo "... square_as.i"
-	@echo "... square_as.s"
+	@echo "... talk_back.o"
+	@echo "... talk_back.i"
+	@echo "... talk_back.s"
 .PHONY : help
 
 

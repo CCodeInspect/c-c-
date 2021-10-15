@@ -66,45 +66,30 @@ include CMakeFiles/c_exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_exe.dir/flags.make
 
-CMakeFiles/c_exe.dir/main.c.o: CMakeFiles/c_exe.dir/flags.make
-CMakeFiles/c_exe.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_exe.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_exe.dir/main.c.o -c /Users/paulinelee/CLionProjects/c_exe/main.c
+CMakeFiles/c_exe.dir/talk_back.c.o: CMakeFiles/c_exe.dir/flags.make
+CMakeFiles/c_exe.dir/talk_back.c.o: ../talk_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_exe.dir/talk_back.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_exe.dir/talk_back.c.o -c /Users/paulinelee/CLionProjects/c_exe/talk_back.c
 
-CMakeFiles/c_exe.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_exe.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/paulinelee/CLionProjects/c_exe/main.c > CMakeFiles/c_exe.dir/main.c.i
+CMakeFiles/c_exe.dir/talk_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_exe.dir/talk_back.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/paulinelee/CLionProjects/c_exe/talk_back.c > CMakeFiles/c_exe.dir/talk_back.c.i
 
-CMakeFiles/c_exe.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_exe.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/paulinelee/CLionProjects/c_exe/main.c -o CMakeFiles/c_exe.dir/main.c.s
-
-CMakeFiles/c_exe.dir/square_as.c.o: CMakeFiles/c_exe.dir/flags.make
-CMakeFiles/c_exe.dir/square_as.c.o: ../square_as.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_exe.dir/square_as.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_exe.dir/square_as.c.o -c /Users/paulinelee/CLionProjects/c_exe/square_as.c
-
-CMakeFiles/c_exe.dir/square_as.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_exe.dir/square_as.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/paulinelee/CLionProjects/c_exe/square_as.c > CMakeFiles/c_exe.dir/square_as.c.i
-
-CMakeFiles/c_exe.dir/square_as.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_exe.dir/square_as.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/paulinelee/CLionProjects/c_exe/square_as.c -o CMakeFiles/c_exe.dir/square_as.c.s
+CMakeFiles/c_exe.dir/talk_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_exe.dir/talk_back.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/paulinelee/CLionProjects/c_exe/talk_back.c -o CMakeFiles/c_exe.dir/talk_back.c.s
 
 # Object files for target c_exe
 c_exe_OBJECTS = \
-"CMakeFiles/c_exe.dir/main.c.o" \
-"CMakeFiles/c_exe.dir/square_as.c.o"
+"CMakeFiles/c_exe.dir/talk_back.c.o"
 
 # External object files for target c_exe
 c_exe_EXTERNAL_OBJECTS =
 
-c_exe: CMakeFiles/c_exe.dir/main.c.o
-c_exe: CMakeFiles/c_exe.dir/square_as.c.o
+c_exe: CMakeFiles/c_exe.dir/talk_back.c.o
 c_exe: CMakeFiles/c_exe.dir/build.make
 c_exe: CMakeFiles/c_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

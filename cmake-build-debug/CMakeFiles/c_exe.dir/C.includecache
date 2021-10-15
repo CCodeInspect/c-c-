@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinelee/CLionProjects/c_exe/main.c
+/Users/paulinelee/CLionProjects/c_exe/talk_back.c
+talk_back.h
+/Users/paulinelee/CLionProjects/c_exe/talk_back.h
 stdio.h
 -
+string.h
+-
+
+/Users/paulinelee/CLionProjects/c_exe/talk_back.h
 
