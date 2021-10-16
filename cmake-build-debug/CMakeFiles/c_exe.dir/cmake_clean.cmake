@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/pizza.c.o"
-  "CMakeFiles/c_exe.dir/prasise2.c.o"
+  "CMakeFiles/c_exe.dir/for_complicated.c.o"
   "c_exe"
   "c_exe.pdb"
 )

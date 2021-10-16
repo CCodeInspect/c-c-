@@ -129,53 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-pizza.o: pizza.c.o
-.PHONY : pizza.o
+for_complicated.o: for_complicated.c.o
+.PHONY : for_complicated.o
 
 # target to build an object file
-pizza.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.o
-.PHONY : pizza.c.o
+for_complicated.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.o
+.PHONY : for_complicated.c.o
 
-pizza.i: pizza.c.i
-.PHONY : pizza.i
-
-# target to preprocess a source file
-pizza.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.i
-.PHONY : pizza.c.i
-
-pizza.s: pizza.c.s
-.PHONY : pizza.s
-
-# target to generate assembly for a file
-pizza.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/pizza.c.s
-.PHONY : pizza.c.s
-
-prasise2.o: prasise2.c.o
-.PHONY : prasise2.o
-
-# target to build an object file
-prasise2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.o
-.PHONY : prasise2.c.o
-
-prasise2.i: prasise2.c.i
-.PHONY : prasise2.i
+for_complicated.i: for_complicated.c.i
+.PHONY : for_complicated.i
 
 # target to preprocess a source file
-prasise2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.i
-.PHONY : prasise2.c.i
+for_complicated.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.i
+.PHONY : for_complicated.c.i
 
-prasise2.s: prasise2.c.s
-.PHONY : prasise2.s
+for_complicated.s: for_complicated.c.s
+.PHONY : for_complicated.s
 
 # target to generate assembly for a file
-prasise2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/prasise2.c.s
-.PHONY : prasise2.c.s
+for_complicated.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.s
+.PHONY : for_complicated.c.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... pizza.o"
-	@echo "... pizza.i"
-	@echo "... pizza.s"
-	@echo "... prasise2.o"
-	@echo "... prasise2.i"
-	@echo "... prasise2.s"
+	@echo "... for_complicated.o"
+	@echo "... for_complicated.i"
+	@echo "... for_complicated.s"
 .PHONY : help
 
 

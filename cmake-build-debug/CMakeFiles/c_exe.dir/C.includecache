@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinelee/CLionProjects/c_exe/pizza.c
-pizza.h
-/Users/paulinelee/CLionProjects/c_exe/pizza.h
+/Users/paulinelee/CLionProjects/c_exe/for_complicated.c
+for_complicated.h
+/Users/paulinelee/CLionProjects/c_exe/for_complicated.h
 stdio.h
 -
 
-/Users/paulinelee/CLionProjects/c_exe/pizza.h
-
-/Users/paulinelee/CLionProjects/c_exe/prasise2.c
-prasise2.h
-/Users/paulinelee/CLionProjects/c_exe/prasise2.h
-stdio.h
--
-string.h
--
-strings.h
--
-
-/Users/paulinelee/CLionProjects/c_exe/prasise2.h
+/Users/paulinelee/CLionProjects/c_exe/for_complicated.h
 
