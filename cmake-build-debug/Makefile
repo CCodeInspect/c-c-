@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-judge_char_and_nonchar.o: judge_char_and_nonchar.c.o
-.PHONY : judge_char_and_nonchar.o
+for_nesting.o: for_nesting.c.o
+.PHONY : for_nesting.o
 
 # target to build an object file
-judge_char_and_nonchar.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.o
-.PHONY : judge_char_and_nonchar.c.o
+for_nesting.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.o
+.PHONY : for_nesting.c.o
 
-judge_char_and_nonchar.i: judge_char_and_nonchar.c.i
-.PHONY : judge_char_and_nonchar.i
+for_nesting.i: for_nesting.c.i
+.PHONY : for_nesting.i
 
 # target to preprocess a source file
-judge_char_and_nonchar.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.i
-.PHONY : judge_char_and_nonchar.c.i
+for_nesting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.i
+.PHONY : for_nesting.c.i
 
-judge_char_and_nonchar.s: judge_char_and_nonchar.c.s
-.PHONY : judge_char_and_nonchar.s
+for_nesting.s: for_nesting.c.s
+.PHONY : for_nesting.s
 
 # target to generate assembly for a file
-judge_char_and_nonchar.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.s
-.PHONY : judge_char_and_nonchar.c.s
+for_nesting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.s
+.PHONY : for_nesting.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... judge_char_and_nonchar.o"
-	@echo "... judge_char_and_nonchar.i"
-	@echo "... judge_char_and_nonchar.s"
+	@echo "... for_nesting.o"
+	@echo "... for_nesting.i"
+	@echo "... for_nesting.s"
 .PHONY : help
 
 

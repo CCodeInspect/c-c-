@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinelee/CLionProjects/c_exe/judge_char_and_nonchar.c
-judge_char_and_nonchar.h
-/Users/paulinelee/CLionProjects/c_exe/judge_char_and_nonchar.h
+/Users/paulinelee/CLionProjects/c_exe/for_nesting.c
+for_nesting.h
+/Users/paulinelee/CLionProjects/c_exe/for_nesting.h
 stdio.h
 -
-string.h
--
 
-/Users/paulinelee/CLionProjects/c_exe/judge_char_and_nonchar.h
+/Users/paulinelee/CLionProjects/c_exe/for_nesting.h
 
