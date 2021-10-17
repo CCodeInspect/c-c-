@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/paulinelee/CLionProjects/c_exe/for_complicated.c" "/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles/c_exe.dir/for_complicated.c.o"
+  "/Users/paulinelee/CLionProjects/c_exe/judge_char_and_nonchar.c" "/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

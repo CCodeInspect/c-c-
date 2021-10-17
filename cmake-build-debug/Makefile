@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-for_complicated.o: for_complicated.c.o
-.PHONY : for_complicated.o
+judge_char_and_nonchar.o: judge_char_and_nonchar.c.o
+.PHONY : judge_char_and_nonchar.o
 
 # target to build an object file
-for_complicated.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.o
-.PHONY : for_complicated.c.o
+judge_char_and_nonchar.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.o
+.PHONY : judge_char_and_nonchar.c.o
 
-for_complicated.i: for_complicated.c.i
-.PHONY : for_complicated.i
+judge_char_and_nonchar.i: judge_char_and_nonchar.c.i
+.PHONY : judge_char_and_nonchar.i
 
 # target to preprocess a source file
-for_complicated.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.i
-.PHONY : for_complicated.c.i
+judge_char_and_nonchar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.i
+.PHONY : judge_char_and_nonchar.c.i
 
-for_complicated.s: for_complicated.c.s
-.PHONY : for_complicated.s
+judge_char_and_nonchar.s: judge_char_and_nonchar.c.s
+.PHONY : judge_char_and_nonchar.s
 
 # target to generate assembly for a file
-for_complicated.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_complicated.c.s
-.PHONY : for_complicated.c.s
+judge_char_and_nonchar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.s
+.PHONY : judge_char_and_nonchar.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... for_complicated.o"
-	@echo "... for_complicated.i"
-	@echo "... for_complicated.s"
+	@echo "... judge_char_and_nonchar.o"
+	@echo "... judge_char_and_nonchar.i"
+	@echo "... judge_char_and_nonchar.s"
 .PHONY : help
 
 

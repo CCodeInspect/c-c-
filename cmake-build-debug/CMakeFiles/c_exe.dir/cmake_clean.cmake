@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/for_complicated.c.o"
+  "CMakeFiles/c_exe.dir/judge_char_and_nonchar.c.o"
   "c_exe"
   "c_exe.pdb"
 )
