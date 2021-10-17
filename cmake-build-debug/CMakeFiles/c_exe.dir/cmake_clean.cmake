@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/for_nesting.c.o"
+  "CMakeFiles/c_exe.dir/c1c2.c.o"
   "c_exe"
   "c_exe.pdb"
 )

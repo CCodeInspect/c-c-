@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-for_nesting.o: for_nesting.c.o
-.PHONY : for_nesting.o
+c1c2.o: c1c2.c.o
+.PHONY : c1c2.o
 
 # target to build an object file
-for_nesting.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.o
-.PHONY : for_nesting.c.o
+c1c2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.o
+.PHONY : c1c2.c.o
 
-for_nesting.i: for_nesting.c.i
-.PHONY : for_nesting.i
+c1c2.i: c1c2.c.i
+.PHONY : c1c2.i
 
 # target to preprocess a source file
-for_nesting.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.i
-.PHONY : for_nesting.c.i
+c1c2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.i
+.PHONY : c1c2.c.i
 
-for_nesting.s: for_nesting.c.s
-.PHONY : for_nesting.s
+c1c2.s: c1c2.c.s
+.PHONY : c1c2.s
 
 # target to generate assembly for a file
-for_nesting.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/for_nesting.c.s
-.PHONY : for_nesting.c.s
+c1c2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.s
+.PHONY : c1c2.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... for_nesting.o"
-	@echo "... for_nesting.i"
-	@echo "... for_nesting.s"
+	@echo "... c1c2.o"
+	@echo "... c1c2.i"
+	@echo "... c1c2.s"
 .PHONY : help
 
 
