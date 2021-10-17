@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-c1c2.o: c1c2.c.o
-.PHONY : c1c2.o
+cypher1.o: cypher1.c.o
+.PHONY : cypher1.o
 
 # target to build an object file
-c1c2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.o
-.PHONY : c1c2.c.o
+cypher1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.o
+.PHONY : cypher1.c.o
 
-c1c2.i: c1c2.c.i
-.PHONY : c1c2.i
+cypher1.i: cypher1.c.i
+.PHONY : cypher1.i
 
 # target to preprocess a source file
-c1c2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.i
-.PHONY : c1c2.c.i
+cypher1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.i
+.PHONY : cypher1.c.i
 
-c1c2.s: c1c2.c.s
-.PHONY : c1c2.s
+cypher1.s: cypher1.c.s
+.PHONY : cypher1.s
 
 # target to generate assembly for a file
-c1c2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/c1c2.c.s
-.PHONY : c1c2.c.s
+cypher1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.s
+.PHONY : cypher1.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... c1c2.o"
-	@echo "... c1c2.i"
-	@echo "... c1c2.s"
+	@echo "... cypher1.o"
+	@echo "... cypher1.i"
+	@echo "... cypher1.s"
 .PHONY : help
 
 
