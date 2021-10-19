@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-cypher1.o: cypher1.c.o
-.PHONY : cypher1.o
+第9章，7，8章学了个寂寞/locheck.o: 第9章，7，8章学了个寂寞/locheck.c.o
+.PHONY : 第9章，7，8章学了个寂寞/locheck.o
 
 # target to build an object file
-cypher1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.o
-.PHONY : cypher1.c.o
+第9章，7，8章学了个寂寞/locheck.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.o
+.PHONY : 第9章，7，8章学了个寂寞/locheck.c.o
 
-cypher1.i: cypher1.c.i
-.PHONY : cypher1.i
+第9章，7，8章学了个寂寞/locheck.i: 第9章，7，8章学了个寂寞/locheck.c.i
+.PHONY : 第9章，7，8章学了个寂寞/locheck.i
 
 # target to preprocess a source file
-cypher1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.i
-.PHONY : cypher1.c.i
+第9章，7，8章学了个寂寞/locheck.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.i
+.PHONY : 第9章，7，8章学了个寂寞/locheck.c.i
 
-cypher1.s: cypher1.c.s
-.PHONY : cypher1.s
+第9章，7，8章学了个寂寞/locheck.s: 第9章，7，8章学了个寂寞/locheck.c.s
+.PHONY : 第9章，7，8章学了个寂寞/locheck.s
 
 # target to generate assembly for a file
-cypher1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/cypher1.c.s
-.PHONY : cypher1.c.s
+第9章，7，8章学了个寂寞/locheck.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.s
+.PHONY : 第9章，7，8章学了个寂寞/locheck.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... cypher1.o"
-	@echo "... cypher1.i"
-	@echo "... cypher1.s"
+	@echo "... 第9章，7，8章学了个寂寞/locheck.o"
+	@echo "... 第9章，7，8章学了个寂寞/locheck.i"
+	@echo "... 第9章，7，8章学了个寂寞/locheck.s"
 .PHONY : help
 
 

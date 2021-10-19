@@ -76,10 +76,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/cypher1.c">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/第9章，7，8章学了个寂寞/locheck.c">
 			<Option target="c_exe"/>
 		</Unit>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/cypher1.h">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/第9章，7，8章学了个寂寞/locheck.h">
 			<Option target="c_exe"/>
 		</Unit>
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/CMakeLists.txt">
