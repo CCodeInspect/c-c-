@@ -43,4 +43,6 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(c_exe 第七章复习题/echo.c)
 #add_executable(c_exe 第七章复习题/recur.c)
 #add_executable(c_exe 第七章复习题/recur_1.c)
-add_executable(c_exe 第9章，7，8章学了个寂寞/locheck.c)
+#add_executable(c_exe 第9章，7，8章学了个寂寞/locheck.c
+add_executable(c_exe 指针/解引用.c)
+#add_executable(c_exe 指针/pp.c)

@@ -76,10 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/第9章，7，8章学了个寂寞/locheck.c">
-			<Option target="c_exe"/>
-		</Unit>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/第9章，7，8章学了个寂寞/locheck.h">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/指针/解引用.c">
 			<Option target="c_exe"/>
 		</Unit>
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/CMakeLists.txt">

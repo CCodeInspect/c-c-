@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-第9章，7，8章学了个寂寞/locheck.o: 第9章，7，8章学了个寂寞/locheck.c.o
-.PHONY : 第9章，7，8章学了个寂寞/locheck.o
+指针/解引用.o: 指针/解引用.c.o
+.PHONY : 指针/解引用.o
 
 # target to build an object file
-第9章，7，8章学了个寂寞/locheck.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.o
-.PHONY : 第9章，7，8章学了个寂寞/locheck.c.o
+指针/解引用.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/指针/解引用.c.o
+.PHONY : 指针/解引用.c.o
 
-第9章，7，8章学了个寂寞/locheck.i: 第9章，7，8章学了个寂寞/locheck.c.i
-.PHONY : 第9章，7，8章学了个寂寞/locheck.i
+指针/解引用.i: 指针/解引用.c.i
+.PHONY : 指针/解引用.i
 
 # target to preprocess a source file
-第9章，7，8章学了个寂寞/locheck.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.i
-.PHONY : 第9章，7，8章学了个寂寞/locheck.c.i
+指针/解引用.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/指针/解引用.c.i
+.PHONY : 指针/解引用.c.i
 
-第9章，7，8章学了个寂寞/locheck.s: 第9章，7，8章学了个寂寞/locheck.c.s
-.PHONY : 第9章，7，8章学了个寂寞/locheck.s
+指针/解引用.s: 指针/解引用.c.s
+.PHONY : 指针/解引用.s
 
 # target to generate assembly for a file
-第9章，7，8章学了个寂寞/locheck.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.s
-.PHONY : 第9章，7，8章学了个寂寞/locheck.c.s
+指针/解引用.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/指针/解引用.c.s
+.PHONY : 指针/解引用.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... 第9章，7，8章学了个寂寞/locheck.o"
-	@echo "... 第9章，7，8章学了个寂寞/locheck.i"
-	@echo "... 第9章，7，8章学了个寂寞/locheck.s"
+	@echo "... 指针/解引用.o"
+	@echo "... 指针/解引用.i"
+	@echo "... 指针/解引用.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/locheck.c.o"
+  "CMakeFiles/c_exe.dir/指针/解引用.c.o"
   "c_exe"
   "c_exe.pdb"
 )
