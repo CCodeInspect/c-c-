@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-第9章，7，8章学了个寂寞/9.11/double_3.o: 第9章，7，8章学了个寂寞/9.11/double_3.c.o
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.o
+数组/二维/遍历一个二维数组.o: 数组/二维/遍历一个二维数组.c.o
+.PHONY : 数组/二维/遍历一个二维数组.o
 
 # target to build an object file
-第9章，7，8章学了个寂寞/9.11/double_3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/9.11/double_3.c.o
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.c.o
+数组/二维/遍历一个二维数组.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.o
+.PHONY : 数组/二维/遍历一个二维数组.c.o
 
-第9章，7，8章学了个寂寞/9.11/double_3.i: 第9章，7，8章学了个寂寞/9.11/double_3.c.i
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.i
+数组/二维/遍历一个二维数组.i: 数组/二维/遍历一个二维数组.c.i
+.PHONY : 数组/二维/遍历一个二维数组.i
 
 # target to preprocess a source file
-第9章，7，8章学了个寂寞/9.11/double_3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/9.11/double_3.c.i
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.c.i
+数组/二维/遍历一个二维数组.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.i
+.PHONY : 数组/二维/遍历一个二维数组.c.i
 
-第9章，7，8章学了个寂寞/9.11/double_3.s: 第9章，7，8章学了个寂寞/9.11/double_3.c.s
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.s
+数组/二维/遍历一个二维数组.s: 数组/二维/遍历一个二维数组.c.s
+.PHONY : 数组/二维/遍历一个二维数组.s
 
 # target to generate assembly for a file
-第9章，7，8章学了个寂寞/9.11/double_3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/9.11/double_3.c.s
-.PHONY : 第9章，7，8章学了个寂寞/9.11/double_3.c.s
+数组/二维/遍历一个二维数组.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.s
+.PHONY : 数组/二维/遍历一个二维数组.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... 第9章，7，8章学了个寂寞/9.11/double_3.o"
-	@echo "... 第9章，7，8章学了个寂寞/9.11/double_3.i"
-	@echo "... 第9章，7，8章学了个寂寞/9.11/double_3.s"
+	@echo "... 数组/二维/遍历一个二维数组.o"
+	@echo "... 数组/二维/遍历一个二维数组.i"
+	@echo "... 数组/二维/遍历一个二维数组.s"
 .PHONY : help
 
 

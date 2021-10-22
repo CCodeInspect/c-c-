@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/第9章，7，8章学了个寂寞/9.11/double_3.c.o"
+  "CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.o"
   "c_exe"
   "c_exe.pdb"
 )
