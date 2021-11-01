@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-数组/二维/遍历一个二维数组.o: 数组/二维/遍历一个二维数组.c.o
-.PHONY : 数组/二维/遍历一个二维数组.o
+review/some_heads_definition.o: review/some_heads_definition.c.o
+.PHONY : review/some_heads_definition.o
 
 # target to build an object file
-数组/二维/遍历一个二维数组.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.o
-.PHONY : 数组/二维/遍历一个二维数组.c.o
+review/some_heads_definition.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.o
+.PHONY : review/some_heads_definition.c.o
 
-数组/二维/遍历一个二维数组.i: 数组/二维/遍历一个二维数组.c.i
-.PHONY : 数组/二维/遍历一个二维数组.i
+review/some_heads_definition.i: review/some_heads_definition.c.i
+.PHONY : review/some_heads_definition.i
 
 # target to preprocess a source file
-数组/二维/遍历一个二维数组.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.i
-.PHONY : 数组/二维/遍历一个二维数组.c.i
+review/some_heads_definition.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.i
+.PHONY : review/some_heads_definition.c.i
 
-数组/二维/遍历一个二维数组.s: 数组/二维/遍历一个二维数组.c.s
-.PHONY : 数组/二维/遍历一个二维数组.s
+review/some_heads_definition.s: review/some_heads_definition.c.s
+.PHONY : review/some_heads_definition.s
 
 # target to generate assembly for a file
-数组/二维/遍历一个二维数组.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.s
-.PHONY : 数组/二维/遍历一个二维数组.c.s
+review/some_heads_definition.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.s
+.PHONY : review/some_heads_definition.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... 数组/二维/遍历一个二维数组.o"
-	@echo "... 数组/二维/遍历一个二维数组.i"
-	@echo "... 数组/二维/遍历一个二维数组.s"
+	@echo "... review/some_heads_definition.o"
+	@echo "... review/some_heads_definition.i"
+	@echo "... review/some_heads_definition.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/数组/二维/遍历一个二维数组.c.o"
+  "CMakeFiles/c_exe.dir/review/some_heads_definition.c.o"
   "c_exe"
   "c_exe.pdb"
 )
