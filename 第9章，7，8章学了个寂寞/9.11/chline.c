@@ -23,6 +23,5 @@ void chline(char ch, int row, int col) {
         for (int j = 1; j <= col; j++) { //列
             putchar(ch);
         };
-        putchar('\n');
     };
 };
