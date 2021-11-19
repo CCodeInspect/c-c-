@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_exe.dir/review/some_heads_definition.c.o"
+  "CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o"
   "c_exe"
   "c_exe.pdb"
 )

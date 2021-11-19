@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/paulinelee/CLionProjects/c_exe/review/change_variety.c
-change_variety.h
-/Users/paulinelee/CLionProjects/c_exe/review/change_variety.h
+/Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.c
+give_a_arr.h
+/Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.h
 stdio.h
 -
 
-/Users/paulinelee/CLionProjects/c_exe/review/change_variety.h
+/Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.h
 

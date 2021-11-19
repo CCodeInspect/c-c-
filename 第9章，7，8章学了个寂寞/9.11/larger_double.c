@@ -16,7 +16,7 @@ void large_of(double *pa, double *pb);
 /*主调函数*/
 int main(void) {
     double x = 22.0;
-    double y = 10.1;
+    double y = 910.1;
     printf("输入两个数\n");
     printf("取地址前x =%.2f y=%,2f\n", x, y);
     large_of(&x, &y);
