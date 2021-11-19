@@ -129,29 +129,29 @@ c_exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/build
 .PHONY : c_exe/fast
 
-review/some_heads_definition.o: review/some_heads_definition.c.o
-.PHONY : review/some_heads_definition.o
+str_strmethod/give_a_arr.o: str_strmethod/give_a_arr.c.o
+.PHONY : str_strmethod/give_a_arr.o
 
 # target to build an object file
-review/some_heads_definition.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.o
-.PHONY : review/some_heads_definition.c.o
+str_strmethod/give_a_arr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o
+.PHONY : str_strmethod/give_a_arr.c.o
 
-review/some_heads_definition.i: review/some_heads_definition.c.i
-.PHONY : review/some_heads_definition.i
+str_strmethod/give_a_arr.i: str_strmethod/give_a_arr.c.i
+.PHONY : str_strmethod/give_a_arr.i
 
 # target to preprocess a source file
-review/some_heads_definition.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.i
-.PHONY : review/some_heads_definition.c.i
+str_strmethod/give_a_arr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.i
+.PHONY : str_strmethod/give_a_arr.c.i
 
-review/some_heads_definition.s: review/some_heads_definition.c.s
-.PHONY : review/some_heads_definition.s
+str_strmethod/give_a_arr.s: str_strmethod/give_a_arr.c.s
+.PHONY : str_strmethod/give_a_arr.s
 
 # target to generate assembly for a file
-review/some_heads_definition.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/review/some_heads_definition.c.s
-.PHONY : review/some_heads_definition.c.s
+str_strmethod/give_a_arr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_exe.dir/build.make CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.s
+.PHONY : str_strmethod/give_a_arr.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_exe"
-	@echo "... review/some_heads_definition.o"
-	@echo "... review/some_heads_definition.i"
-	@echo "... review/some_heads_definition.s"
+	@echo "... str_strmethod/give_a_arr.o"
+	@echo "... str_strmethod/give_a_arr.i"
+	@echo "... str_strmethod/give_a_arr.s"
 .PHONY : help
 
 

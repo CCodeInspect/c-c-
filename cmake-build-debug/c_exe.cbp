@@ -76,10 +76,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/review/some_heads_definition.c">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.c">
 			<Option target="c_exe"/>
 		</Unit>
-		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/review/some_heads_definition.h">
+		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.h">
 			<Option target="c_exe"/>
 		</Unit>
 		<Unit filename="/Users/paulinelee/CLionProjects/c_exe/CMakeLists.txt">

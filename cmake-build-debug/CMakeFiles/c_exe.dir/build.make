@@ -66,27 +66,27 @@ include CMakeFiles/c_exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c_exe.dir/flags.make
 
-CMakeFiles/c_exe.dir/review/some_heads_definition.c.o: CMakeFiles/c_exe.dir/flags.make
-CMakeFiles/c_exe.dir/review/some_heads_definition.c.o: ../review/some_heads_definition.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_exe.dir/review/some_heads_definition.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_exe.dir/review/some_heads_definition.c.o -c /Users/paulinelee/CLionProjects/c_exe/review/some_heads_definition.c
+CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o: CMakeFiles/c_exe.dir/flags.make
+CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o: ../str_strmethod/give_a_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o -c /Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.c
 
-CMakeFiles/c_exe.dir/review/some_heads_definition.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_exe.dir/review/some_heads_definition.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/paulinelee/CLionProjects/c_exe/review/some_heads_definition.c > CMakeFiles/c_exe.dir/review/some_heads_definition.c.i
+CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.c > CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.i
 
-CMakeFiles/c_exe.dir/review/some_heads_definition.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_exe.dir/review/some_heads_definition.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/paulinelee/CLionProjects/c_exe/review/some_heads_definition.c -o CMakeFiles/c_exe.dir/review/some_heads_definition.c.s
+CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/paulinelee/CLionProjects/c_exe/str_strmethod/give_a_arr.c -o CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.s
 
 # Object files for target c_exe
 c_exe_OBJECTS = \
-"CMakeFiles/c_exe.dir/review/some_heads_definition.c.o"
+"CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o"
 
 # External object files for target c_exe
 c_exe_EXTERNAL_OBJECTS =
 
-c_exe: CMakeFiles/c_exe.dir/review/some_heads_definition.c.o
+c_exe: CMakeFiles/c_exe.dir/str_strmethod/give_a_arr.c.o
 c_exe: CMakeFiles/c_exe.dir/build.make
 c_exe: CMakeFiles/c_exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/paulinelee/CLionProjects/c_exe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_exe"
